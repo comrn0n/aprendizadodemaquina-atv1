@@ -5,4 +5,4 @@ v = np.array([1, 2, 3])
 
 pdEscalar = np.dot(u, v)
 
-print(pdEscalar)
+print("Produto escalar: ", pdEscalar)
