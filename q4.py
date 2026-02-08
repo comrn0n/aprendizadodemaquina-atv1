@@ -2,6 +2,8 @@ import numpy as np
 
 x = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
 
-covariancia = np.cov(x)
+xt = x.T
 
-print("Matriz de covariância aproximada:", covariancia)
+covariancia = xt @ x
+
+print("Matriz de covariância aproximada:\n", covariancia)
